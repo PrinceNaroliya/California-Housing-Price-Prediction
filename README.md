@@ -57,8 +57,16 @@ This project predicts the median house value in California using features such a
 ---
 
 ## Results
-- **XGBoost R² Score:** 0.77 (example)  
-The model achieves a good baseline performance. Further improvements can be done using feature engineering, hyperparameter tuning, and ensemble methods.
+- **XGBoost R² Score:** 0.77  
+
+As a beginner-level implementation, this score demonstrates a reasonable baseline. While the model performs decently, there is still room for improvement. Further enhancements could include:
+
+- Advanced feature engineering (interaction features, outlier handling)
+- Hyperparameter tuning using GridSearchCV or RandomizedSearchCV
+- Trying ensemble methods like Stacking, Random Forest, or LightGBM
+- Cross-validation to ensure more robust performance
+
+This project serves as a solid starting point and provides a foundation for progressively improving prediction accuracy in future iterations.
 
 ---
 
@@ -78,23 +86,23 @@ The model achieves a good baseline performance. Further improvements can be done
 
 ## Future Work
 
-* Add advanced feature engineering (interaction features, outlier removal)
+- Add advanced feature engineering (interaction features, outlier removal)
 
-* Experiment with Random Forest and Stacked Models
+- Experiment with Random Forest and Stacked Models
 
-* Optimize hyperparameters using GridSearchCV / RandomizedSearchCV
+- Optimize hyperparameters using GridSearchCV / RandomizedSearchCV
 
-* Evaluate using Cross-Validation for robust performance
+- Evaluate using Cross-Validation for robust performance
 
 ## Libraries Used
 
-* pandas
+- pandas
 
-* numpy
+- numpy
 
-* scikit-learn
+- scikit-learn
 
-* xgboost
+- xgboost
 
 ## Author
 
