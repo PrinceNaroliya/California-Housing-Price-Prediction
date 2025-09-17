@@ -1,7 +1,5 @@
 # California-Housing-Price-Prediction
 
-# California Housing Price Prediction
-
 ## Overview
 This project predicts the median house value in California using features such as longitude, latitude, number of rooms, households, median income, and ocean proximity. The model is built using **XGBoost Regressor** and demonstrates feature engineering, preprocessing, and hyperparameter tuning for optimal performance.
 
@@ -75,14 +73,18 @@ This project serves as a solid starting point and provides a foundation for prog
 
     git clone https://github.com/<your-username>/California-Housing-Price-Prediction
 
-2. Insrall required libraries:
+2. Install required libraries:
+   
     pip install -r requirements.txt
 
-3. Download the dataset from Kaggle and update the path in the notebook if needed.
-4. Open notebook:
+4. Download the dataset from Kaggle and update the path in the notebook if needed.
+5. Open notebook:
+   
     jupyter notebook notebooks/california_housing_model.ipynb
 
-5. Run all cells to train the model and check predictions.
+7. Run all cells to train the model and check predictions.
+
+---
 
 ## Future Work
 
@@ -94,6 +96,8 @@ This project serves as a solid starting point and provides a foundation for prog
 
 - Evaluate using Cross-Validation for robust performance
 
+---
+
 ## Libraries Used
 
 - pandas
@@ -103,6 +107,8 @@ This project serves as a solid starting point and provides a foundation for prog
 - scikit-learn
 
 - xgboost
+
+---
 
 ## Author
 
